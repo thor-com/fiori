@@ -145,7 +145,7 @@ sap.ui.define([
 		
 		_handleSelection: function(selectedItem){
 			var oVizFrame = _view.byId(this.currentVizFrame);
-			var oDataset = oVizFrame.getDataset()
+			var oDataset = oVizFrame.getDataset();
 			
 			oDataset.removeAllDimensions();
 			oDataset.removeAllMeasures();
