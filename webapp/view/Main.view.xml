@@ -31,6 +31,7 @@
 							</viz:Popover>
 							<viz:VizFrame height="700px"
 								id="vizFrame"
+								vizProperties="{ title: {text : 'Revenue', visible : true}}"
 								uiConfig="{applicationSet:'fiori'}"
 								width="100%">
 							</viz:VizFrame>
