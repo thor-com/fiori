@@ -43,7 +43,7 @@
 							<viz:VizFrame height="700px"
 								id="vizFrameBar"
 								uiConfig="{applicationSet:'fiori'}"
-								vizProperties="{ title: {text : 'Revenue', visible : true}}"
+								vizProperties="{ title: {text : 'Revenue', visible : false}}"
 								width="100%">
 							</viz:VizFrame>
 						</suite:content>
