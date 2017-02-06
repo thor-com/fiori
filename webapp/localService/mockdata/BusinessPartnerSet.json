@@ -1,0 +1,191 @@
+[{
+	"BpId": "BpId 1",
+	"BpRole": "BpRole 1",
+	"EmailAddress": "EmailAddress 1",
+	"CompanyName": "CompanyName 1",
+	"CurrencyCode": "CurrencyCode 1",
+	"City": "City 1",
+	"Street": "Street 1",
+	"Country": "Country 1",
+	"AddressType": "AddressType 1",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%201')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%201')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 2",
+	"BpRole": "BpRole 2",
+	"EmailAddress": "EmailAddress 2",
+	"CompanyName": "CompanyName 2",
+	"CurrencyCode": "CurrencyCode 2",
+	"City": "City 2",
+	"Street": "Street 2",
+	"Country": "Country 2",
+	"AddressType": "AddressType 2",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%202')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%202')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 3",
+	"BpRole": "BpRole 3",
+	"EmailAddress": "EmailAddress 3",
+	"CompanyName": "CompanyName 3",
+	"CurrencyCode": "CurrencyCode 3",
+	"City": "City 3",
+	"Street": "Street 3",
+	"Country": "Country 3",
+	"AddressType": "AddressType 3",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%203')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%203')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 4",
+	"BpRole": "BpRole 4",
+	"EmailAddress": "EmailAddress 4",
+	"CompanyName": "CompanyName 4",
+	"CurrencyCode": "CurrencyCode 4",
+	"City": "City 4",
+	"Street": "Street 4",
+	"Country": "Country 4",
+	"AddressType": "AddressType 4",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%204')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%204')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 5",
+	"BpRole": "BpRole 5",
+	"EmailAddress": "EmailAddress 5",
+	"CompanyName": "CompanyName 5",
+	"CurrencyCode": "CurrencyCode 5",
+	"City": "City 5",
+	"Street": "Street 5",
+	"Country": "Country 5",
+	"AddressType": "AddressType 5",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%205')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%205')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 6",
+	"BpRole": "BpRole 6",
+	"EmailAddress": "EmailAddress 6",
+	"CompanyName": "CompanyName 6",
+	"CurrencyCode": "CurrencyCode 6",
+	"City": "City 6",
+	"Street": "Street 6",
+	"Country": "Country 6",
+	"AddressType": "AddressType 6",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%206')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%206')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 7",
+	"BpRole": "BpRole 7",
+	"EmailAddress": "EmailAddress 7",
+	"CompanyName": "CompanyName 7",
+	"CurrencyCode": "CurrencyCode 7",
+	"City": "City 7",
+	"Street": "Street 7",
+	"Country": "Country 7",
+	"AddressType": "AddressType 7",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%207')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%207')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 8",
+	"BpRole": "BpRole 8",
+	"EmailAddress": "EmailAddress 8",
+	"CompanyName": "CompanyName 8",
+	"CurrencyCode": "CurrencyCode 8",
+	"City": "City 8",
+	"Street": "Street 8",
+	"Country": "Country 8",
+	"AddressType": "AddressType 8",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%208')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%208')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 9",
+	"BpRole": "BpRole 9",
+	"EmailAddress": "EmailAddress 9",
+	"CompanyName": "CompanyName 9",
+	"CurrencyCode": "CurrencyCode 9",
+	"City": "City 9",
+	"Street": "Street 9",
+	"Country": "Country 9",
+	"AddressType": "AddressType 9",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%209')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%209')/SalesOrders"
+		}
+	}
+}, {
+	"BpId": "BpId 10",
+	"BpRole": "BpRole 10",
+	"EmailAddress": "EmailAddress 10",
+	"CompanyName": "CompanyName 10",
+	"CurrencyCode": "CurrencyCode 10",
+	"City": "City 10",
+	"Street": "Street 10",
+	"Country": "Country 10",
+	"AddressType": "AddressType 10",
+	"__metadata": {
+		"uri": "BusinessPartnerSet('BpId%2010')",
+		"type": "ZGW100_XX_SO_SRV.BusinessPartner"
+	},
+	"SalesOrders": {
+		"__deferred": {
+			"uri": "BusinessPartnerSet('BpId%2010')/SalesOrders"
+		}
+	}
+}]

@@ -1,0 +1,60 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:semantic="sap.m.semantic"
+	xmlns:suite="sap.suite.ui.commons"
+	xmlns:viz="sap.viz.ui5.controls"
+	controllerName="sap.training.diagramDiagramExercise.controller.Main" displayBlock="true">
+	<App>
+		<semantic:FullscreenPage title="{i18n>title}"  
+			id="page"
+			navButtonPress="onNavBack">
+			<semantic:content>
+				<suite:ChartContainer id="chartContainer"
+					title="{i18n>chartContainerTitle}"
+					autoAdjustHeight="true"
+					showFullScreen="true"
+					showLegend="true"
+					showPersonalization="false"
+					contentChange="attachContentChange"
+					personalizationPress="attachPersonalizationPress">
+					<suite:dimensionSelectors>
+						<Select id="dimSelector" 
+							visible="true" 
+							change="onHandleSelection">
+						</Select>
+					</suite:dimensionSelectors>
+					<suite:ChartContainerContent icon="sap-icon://line-chart"
+						title="Line Chart">
+						<suite:content>
+							<viz:Popover id="popOver">
+							</viz:Popover>
+							<viz:VizFrame height="700px"
+								id="vizFrame"
+								uiConfig="{applicationSet:'fiori'}"
+								width="100%">
+							</viz:VizFrame>
+						</suite:content>
+					</suite:ChartContainerContent>
+					<suite:ChartContainerContent icon="sap-icon://vertical-bar-chart"
+						title="Column Chart">
+						<suite:content>
+							<viz:VizFrame height="700px"
+								id="vizFrameBar"
+								uiConfig="{applicationSet:'fiori'}"
+								width="100%">
+							</viz:VizFrame>
+						</suite:content>
+					</suite:ChartContainerContent>
+					<suite:ChartContainerContent icon="sap-icon://table-chart"
+						title="Table">
+						<suite:content>
+							<Table id="table">
+							</Table>
+						</suite:content>
+					</suite:ChartContainerContent>
+				</suite:ChartContainer>
+			</semantic:content>
+		</semantic:FullscreenPage>
+	</App>
+</mvc:View>

@@ -1,0 +1,241 @@
+[{
+	"SoId": "SoId 1",
+	"Note": "Note 1",
+	"BuyerId": "BpId 1",
+	"BuyerName": "BuyerName 1",
+	"CurrencyCode": "CurrencyCode 1",
+	"GrossAmount": 204.4,
+	"NetAmount": 3780.89,
+	"TaxAmount": 4203.35,
+	"LifecycleStatus": "LifecycleStatus 1",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%201')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%201')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%201')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 2",
+	"Note": "Note 2",
+	"BuyerId": "BpId 2",
+	"BuyerName": "BuyerName 2",
+	"CurrencyCode": "CurrencyCode 2",
+	"GrossAmount": 1510.82,
+	"NetAmount": 9083.02,
+	"TaxAmount": 1544.41,
+	"LifecycleStatus": "LifecycleStatus 2",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%202')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%202')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%202')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 3",
+	"Note": "Note 3",
+	"BuyerId": "BpId 3",
+	"BuyerName": "BuyerName 3",
+	"CurrencyCode": "CurrencyCode 3",
+	"GrossAmount": 1345.6,
+	"NetAmount": 4602.68,
+	"TaxAmount": 2774.52,
+	"LifecycleStatus": "LifecycleStatus 3",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%203')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%203')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%203')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 4",
+	"Note": "Note 4",
+	"BuyerId": "BpId 4",
+	"BuyerName": "BuyerName 4",
+	"CurrencyCode": "CurrencyCode 4",
+	"GrossAmount": 8216.07,
+	"NetAmount": 4728.95,
+	"TaxAmount": 5174.39,
+	"LifecycleStatus": "LifecycleStatus 4",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%204')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%204')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%204')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 5",
+	"Note": "Note 5",
+	"BuyerId": "BpId 5",
+	"BuyerName": "BuyerName 5",
+	"CurrencyCode": "CurrencyCode 5",
+	"GrossAmount": 9646.5,
+	"NetAmount": 9063.88,
+	"TaxAmount": 8564.3,
+	"LifecycleStatus": "LifecycleStatus 5",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%205')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%205')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%205')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 6",
+	"Note": "Note 6",
+	"BuyerId": "BpId 6",
+	"BuyerName": "BuyerName 6",
+	"CurrencyCode": "CurrencyCode 6",
+	"GrossAmount": 5237.05,
+	"NetAmount": 5975.68,
+	"TaxAmount": 2168.04,
+	"LifecycleStatus": "LifecycleStatus 6",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%206')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%206')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%206')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 7",
+	"Note": "Note 7",
+	"BuyerId": "BpId 7",
+	"BuyerName": "BuyerName 7",
+	"CurrencyCode": "CurrencyCode 7",
+	"GrossAmount": 854.91,
+	"NetAmount": 697.52,
+	"TaxAmount": 116.12,
+	"LifecycleStatus": "LifecycleStatus 7",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%207')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%207')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%207')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 8",
+	"Note": "Note 8",
+	"BuyerId": "BpId 8",
+	"BuyerName": "BuyerName 8",
+	"CurrencyCode": "CurrencyCode 8",
+	"GrossAmount": 7018.89,
+	"NetAmount": 3275.48,
+	"TaxAmount": 5938.28,
+	"LifecycleStatus": "LifecycleStatus 8",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%208')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%208')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%208')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 9",
+	"Note": "Note 9",
+	"BuyerId": "BpId 9",
+	"BuyerName": "BuyerName 9",
+	"CurrencyCode": "CurrencyCode 9",
+	"GrossAmount": 853.38,
+	"NetAmount": 5573.67,
+	"TaxAmount": 7972.68,
+	"LifecycleStatus": "LifecycleStatus 9",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%209')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%209')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%209')/BusinessPartner"
+		}
+	}
+}, {
+	"SoId": "SoId 10",
+	"Note": "Note 10",
+	"BuyerId": "BpId 10",
+	"BuyerName": "BuyerName 10",
+	"CurrencyCode": "CurrencyCode 10",
+	"GrossAmount": 7669.22,
+	"NetAmount": 3172.55,
+	"TaxAmount": 8983.88,
+	"LifecycleStatus": "LifecycleStatus 10",
+	"__metadata": {
+		"uri": "SalesOrderSet('SoId%2010')",
+		"type": "ZGW100_XX_SO_SRV.SalesOrder"
+	},
+	"SalesOrderItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%2010')/SalesOrderItems"
+		}
+	},
+	"BusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SoId%2010')/BusinessPartner"
+		}
+	}
+}]
