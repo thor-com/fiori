@@ -1,0 +1,131 @@
+{
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "student00.sap.training.dynamicpage",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponentForManifest",
+			"version": "0.0.0"
+		},
+		"dataSources": {
+			"UX_TRAVEL_SRV": {
+				"uri": "/sap/opu/odata/sap/UX_TRAVEL_SRV/",
+				"type": "OData",
+				"settings": {
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "student00.sap.training.dynamicpage.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "App"
+		},
+		"dependencies": {
+			"minUI5Version": "1.60.1",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "student00.sap.training.dynamicpage.i18n.i18n"
+				}
+			},
+			"": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneWay",
+					"defaultCountMode": "Request"
+				},
+				"dataSource": "UX_TRAVEL_SRV",
+				"preload": true
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "student00.sap.training.dynamicpage.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"clearControlAggregation": false
+			},
+			"routes": [
+			{
+				"name": "Overview",
+				"pattern": "",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["Overview"]
+			}, {
+				"name": "Carrier",
+				"pattern": "carriers/{carrierId}",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["Carrier"]
+			}
+			],
+			"targets": {
+			"Overview": {
+					"viewType": "XML",
+					"viewName": "Overview",
+					"viewLevel": 1
+				},
+				"NotFound": {
+					"viewType": "XML",
+					"viewName": "NotFound"
+				},
+				"Carrier": {
+					"viewType": "XML",
+					"viewName": "Carrier",
+					"viewLevel": 2
+				}
+			}
+		}
+	}
+}
+
